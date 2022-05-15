@@ -81,7 +81,14 @@ En este ejercicio consistia invertir el orden de lo valores en un array , para e
 #	
 - Rotación a la Izquierda (3 pts)
 
-En este ejercicio se trabajo con un conjunto de numeros almacenados en un array, para los cuales se tenia que realizar el movimiento uno en uno a la izquierda. Para resolverlo se creo un metodo que recorre una vez las posiciones del array con ello los valores del mismo, en el main y con ayuda del bucle for este metodo es llamado para mostrar la lista del recorrido que hacen los elementos a la izquierda hasta terminar en una posicion inicial.
+En este ejercicio se trabajo con un conjunto de numeros almacenados en un array, para los cuales se tenia que realizar el movimiento uno en uno a la izquierda. Para resolverlo se creo un metodo que recorre una vez las posiciones del array con ello los valores del mismo, en el main y con ayuda del bucle for este metodo es llamado para mostrar la lista del recorrido que hacen los elementos a la izquierda hasta terminar en una posicion inicial. El codigo del metodo implementado para recorrer en una posicion los elementos del array es el siguiente:
+```sh
+		int aux = numeros[0];
+		for(int i=0 ; i<numeros.length - 1 ; i++ ){
+			numeros[i] = numeros[i+1];
+		}
+		numeros[ numeros.length - 1] = aux;
+```
 #	
 - Triángulo recursivo (4 pts)
 
