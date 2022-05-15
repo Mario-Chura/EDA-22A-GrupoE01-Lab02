@@ -1,9 +1,11 @@
 public class Invertirmatriz {
         
  public static void main(String[] args) {
-  
-
- }
+    int[] matriz = {1,2,3};
+    for(int a: matrizInvertida(matriz)){
+       System.out.print(a + " " );
+    }
+   }
  public static int[] matrizInvertida(int[] matriz) {
      int iteraciones = (int) Math.floor(matriz.length/2);
      int longitud = matriz.length;
@@ -14,6 +16,6 @@ public class Invertirmatriz {
          matriz[longitud - i -1] = auxiliar;
      }
     
-     
+     return matriz;
  }
 }
