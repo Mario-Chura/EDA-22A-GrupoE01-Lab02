@@ -40,4 +40,18 @@ public class List<T> {
         }
     }
 
+    //insertar nodo por detras
+    public void insertBack(T data){
+        if(this.root == null){
+            this.root = new Node<T>(data);            
+        } else{
+            Node<T> newNode = new Node<T>(data);
+            Node<T> nodoActual = root;
+            while(nodoActual.getNextNode() != null){
+                nodoActual=nodoActual.getNextNode();
+            }
+            nodoActual.setNextNode(newNode);
+        }
+
+    }
 }
