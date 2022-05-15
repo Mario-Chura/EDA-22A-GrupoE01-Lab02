@@ -5,8 +5,11 @@ public class RotacionIzquierda{
 		System.out.println("Ingrese el tamaño del arreglo");
 		int n = leer.nextInt();
 
-		int array [] = new int [8];	
+		int array [] = new int [n];	
 		
 		System.out.println("esto es : "+n);
+	}
+	public static int [] rotacionIzquierda(int [] a){
+		
 	}
 }
