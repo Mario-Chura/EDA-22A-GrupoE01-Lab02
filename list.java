@@ -28,6 +28,16 @@ public class List<T> {
         }
         return strList; 
     }
-    
+
+    //insertar nodo alfrente
+    public void insertFront(T data){
+        if(this.root == null){
+            this.root = new Node<T>(data);
+        }else{
+            Node<T> newNode = new Node<T>(data);
+            newNode.setNextNode(root);
+            this.root = newNode; 
+        }
+    }
 
 }
