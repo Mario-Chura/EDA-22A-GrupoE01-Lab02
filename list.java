@@ -18,4 +18,16 @@ public class List<T> {
         this.root = root;
     }
 
+    //imprimir
+    public String toString(){
+        String strList = "Contenido: \n";
+        Node<T>  nodoActual = root;
+        while(){
+            strList += nodoActual.toString() + " \n";
+            nodoActual = nodoActual.getNextNode();
+        }
+        return strList; 
+    }
+    
+
 }
