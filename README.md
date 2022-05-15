@@ -103,6 +103,7 @@ else {
 ```     
 #	
 - Lista (11 pts)
+Primeramente, se realizó la clase list para tipos genéricos, dentro de ella se creó un objeto de tipo Node, además se crearon los constructores uno sin argumentos y otro que recibe un tipo genérico. También creamos los métodos set y get, con el método toString para la impresión. Luego implementamos dos métodos: insertFront para insertar un Nodo por al frente e insertBack para insertar el Nodo por detrás. Todo esto lo llevamos al método Main y lo probamos con un ejemplo creando un objeto de tipo Double con la interfaz List para tipos genéricos
 #
 ### II.	SOLUCIÓN DEL CUESTIONARIO
 - ¿Qué diferencia hay entre un List y un ArrayList en Java? <br>
