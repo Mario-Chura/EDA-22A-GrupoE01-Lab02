@@ -10,5 +10,12 @@ public class List<T> {
         this.root = null;
     }
 
+    //metodos set y get
+    public Node<T> getRoot(){
+        return this.root;
+    }
+    public void setRoot(Node<T> root){
+        this.root = root;
+    }
 
 }
