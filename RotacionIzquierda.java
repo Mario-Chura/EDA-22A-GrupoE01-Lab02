@@ -8,8 +8,16 @@ public class RotacionIzquierda{
 		int n = leer.nextInt();
 				
 	}
-	public static void rotacionIzquierda(int [] a){
-		
+	public static void rotacionIzquierda(int [] a, int n){
+	 	
+ 		for(int h = 1; h <= n ; h++){
+			int aux = numeros[0];
+			for(int i=0; i<numeros.length - 1 ; i++ ){
+				numeros[i] = numeros[i+1];
+			}
+			numeros[ numeros.length - 1] = aux;
+			aux = 0;
+		}	 
 	}
 	public static void mostrar(){
 		for (int i = 0 ; i < numeros.length ; i++){
