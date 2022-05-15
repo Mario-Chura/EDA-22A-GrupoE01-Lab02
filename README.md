@@ -69,8 +69,10 @@
 			</tr>
 		</tdbody>
 </table>
+</div>
 	
-## SOLUCIÓN Y RESULTADOS	
+<div align="center"><h2> SOLUCIÓN Y RESULTADOS </h2></div>	
+
 ### I.	SOLUCIÓN DE EJERCICIOS/PROBLEMAS
 	
 - Invertir un matriz de enteros (2 pts)
@@ -108,11 +110,11 @@ Entre los beneficios que nos ofrecen las clases genéricas están en que nos per
 #
 ### III.	CONCLUSIONES
 #
-## RETROALIMENTACIÓN GENERAL
-#
-## REFERENCIAS Y BIBLIOGRAFÍA
+<div align="center"><h2>  RETROALIMENTACIÓN GENERAL </h2></div> <br>
+
+<div align="center"><h2> REFERENCIAS Y BIBLIOGRAFÍAL </h2></div> <br>
     - https://docs.oracle.com/javase/7/docs/api/java/util/List.html 
     - https://docs.oracle.com/javase/tutorial/java/generics/types.html 
     - https://www.w3schools.com/java/java_arraylist.asp 
     - https://es.acervolima.com/diferencia-entre-list-y-arraylist-en-java/#:~:text=Lista%20vs%20ArrayList%20en%20Java&text=Se%20puede%20crear%20una%20instancia,matriz%20din%C3%A1mica%20que%20contiene%20objetos.
-#	
+	
