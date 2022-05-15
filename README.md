@@ -72,27 +72,45 @@
 	
 ## SOLUCIÓN Y RESULTADOS	
 ### I.	SOLUCIÓN DE EJERCICIOS/PROBLEMAS
-1. Invertir un matriz de enteros (2 pts)
-2. Rotación a la Izquierda (3 pts)
-3. Triángulo recursivo (4 pts)
-```sh 
-     	        else {
-	            System.out.println("*" + cadena);
-	            cadena += "*";
-	            trianguloRecursivo(numeroCaracteres-1,  cadena);
-	        }
- ```
-4. Lista (11 pts)
+	
+- Invertir un matriz de enteros (2 pts)
+#	
+- Rotación a la Izquierda (3 pts)
+#	
+- Triángulo recursivo (4 pts)
 
+En este ejercicio se tuvo que usar dos parámetros uno que es el valor de la base del triangulo y un String que es una cadena vacía para que pueda terminar de iterar el método hasta que llegue a un valor de 0 mientras la base va decreciendo como se muestra en el código a continuación:
+#	
+```sh
+else {
+	System.out.println("*" + cadena);
+	cadena += "*";
+	trianguloRecursivo(numeroCaracteres-1,  cadena);
+}
+```     
+#	
+- Lista (11 pts)
+#
 ### II.	SOLUCIÓN DEL CUESTIONARIO
-- ¿Qué diferencia hay entre un List y un ArrayList en Java?
+- ¿Qué diferencia hay entre un List y un ArrayList en Java? <br>
+#
+Se diferencia en lo siguiente:<br>
+La lista es una interface y el arraylist es una clase.<br>
+Mientras la interface amplia un marco de colección, mientras que el arraylist extiende de AbstractList e implemente interfaz List.<br>
+La lista no puede crear instancias, mientras que el arraylist si lo puede hacer.<br>
+La inteface de lista se usa para crear una lista de objetos asociados a un índice, mientras que el arralist crea una matriz que contiene objetos y esta puede 	crecer dinámicamente.<br> 
+#	
 - ¿Qué beneficios y oportunidades ofrecen las clases genéricas en Java?
+#
+Entre los beneficios que nos ofrecen las clases genéricas están en que nos permiten reutilizar el código, así evitamos crear una clase diferente para cada objeto que tenemos que crear.
+#
 ### III.	CONCLUSIONES
 #
 ## RETROALIMENTACIÓN GENERAL
 #
 ## REFERENCIAS Y BIBLIOGRAFÍA
-    - https://docs.oracle.com/javase/7/docs/api/java/util/List.html <br>
-    - https://docs.oracle.com/javase/tutorial/java/generics/types.html <br>
-    - https://www.w3schools.com/java/java_arraylist.asp <br>
+    - https://docs.oracle.com/javase/7/docs/api/java/util/List.html 
+    - https://docs.oracle.com/javase/tutorial/java/generics/types.html 
+    - https://www.w3schools.com/java/java_arraylist.asp 
+    - https://es.acervolima.com/diferencia-entre-list-y-arraylist-en-java/#:~:text=Lista%20vs%20ArrayList%20en%20Java&text=Se%20puede%20crear%20una%20instancia,matriz%20din%C3%A1mica%20que%20contiene%20objetos.
 #	
