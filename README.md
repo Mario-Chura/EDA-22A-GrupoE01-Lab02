@@ -69,59 +69,30 @@
 			</tr>
 		</tdbody>
 </table>
-</div>
+	
+## SOLUCIÓN Y RESULTADOS	
+### I.	SOLUCIÓN DE EJERCICIOS/PROBLEMAS
+1. Invertir un matriz de enteros (2 pts)
+2. Rotación a la Izquierda (3 pts)
+3. Triángulo recursivo (4 pts)
+```sh 
+     	        else {
+	            System.out.println("*" + cadena);
+	            cadena += "*";
+	            trianguloRecursivo(numeroCaracteres-1,  cadena);
+	        }
+ ```
+4. Lista (11 pts)
 
-<div align="center">
-<table>
-<theader>
-<tr><th colspan="6">SOLUCIÓN Y RESULTADOS</th></tr>
-</theader>
-<tbody>
-
-<tr><td>I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS:<br>
-<h4>-Invertir un matriz de enteros (2 pts)</h4><br>
-<h4>-Rotación a la Izquierda (3 pts)</h4><br>
-<h4>-Triángulo recursivo (4 pts)</h4><br>
-<h4>-Lista (11 pts)</h4><br>
-
-<tr><td>II. SOLUCIÓN DEL CUESTINARIO<br>
-<h4>1. ¿Qué diferencia hay entre un List y un ArrayList en Java?</h4><br>
-<h4>2. ¿Qué beneficios y oportunidades ofrecen las clases genéricas en Java? </h4><br>
-
-<br><br></td></tr>
-<br><br></td></tr>
-<tr><td>III. CONCLUSIONES<br>
-
-<br>  
-<br><br></td></tr>
-</tbody>
-</table>
-</div>
-
-<div align="center">
-<table>
-<theader>
-<tr><th colspan="6">RETROALIMENTACIÓN GENERAL</th></tr>
-</theader>
-<tbody>
-	<td>
-    - Retroalimentacion del docente
-	</td>
-</tbody>
-</table>
-</div>
-
-<div align="center">
-<table>
-<theader>
-<tr><th colspan="6">REFERENCIAS Y BIBLIOGRAFÍA</th></tr>
-</theader>
-<tbody>
-	<td>
+### II.	SOLUCIÓN DEL CUESTIONARIO
+- ¿Qué diferencia hay entre un List y un ArrayList en Java?
+- ¿Qué beneficios y oportunidades ofrecen las clases genéricas en Java?
+### III.	CONCLUSIONES
+#
+## RETROALIMENTACIÓN GENERAL
+#
+## REFERENCIAS Y BIBLIOGRAFÍA
     - https://docs.oracle.com/javase/7/docs/api/java/util/List.html <br>
     - https://docs.oracle.com/javase/tutorial/java/generics/types.html <br>
     - https://www.w3schools.com/java/java_arraylist.asp <br>
-	</td>
-</tbody>
-</table>
-</div>
+#	
