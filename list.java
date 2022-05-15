@@ -22,7 +22,7 @@ public class List<T> {
     public String toString(){
         String strList = "Contenido: \n";
         Node<T>  nodoActual = root;
-        while(){
+        while(nodoActual != null){
             strList += nodoActual.toString() + " \n";
             nodoActual = nodoActual.getNextNode();
         }
