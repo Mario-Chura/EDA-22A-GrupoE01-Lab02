@@ -54,4 +54,12 @@ public class List<T> {
         }
 
     }
+
+    //Main
+    public static void main (String[] args){
+        List<Double> li = new List<Double>(143.3);
+        li.insertBack(13.3);
+        li.insertBack(54.8);
+        System.out.println(li.toString());
+    }
 }
