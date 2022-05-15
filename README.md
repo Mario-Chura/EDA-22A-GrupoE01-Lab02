@@ -118,7 +118,9 @@
 </theader>
 <tbody>
 	<td>
-    - Colocar referencias
+    - https://docs.oracle.com/javase/7/docs/api/java/util/List.html <br>
+    - https://docs.oracle.com/javase/tutorial/java/generics/types.html <br>
+    - https://www.w3schools.com/java/java_arraylist.asp <br>
 	</td>
 </tbody>
 </table>
