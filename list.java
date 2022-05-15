@@ -3,7 +3,7 @@ public class List<T> {
 
     //constructores
     public List(T data){
-        Node<T> newRoot = mew Node<T>(data);
+        Node<T> newRoot = new Node<T>(data);
         this.root = newRoot; 
     }
     public List(){
