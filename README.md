@@ -76,6 +76,7 @@
 ### I.	SOLUCIÓN DE EJERCICIOS/PROBLEMAS
 	
 - Invertir un matriz de enteros (2 pts)
+
 En este ejercicio consistia invertir el orden de lo valores en un array , para ello se utilizo un array auxiliar donde se iba almacenando estos valores pero con la posicion invertida.
 #	
 - Rotación a la Izquierda (3 pts)
