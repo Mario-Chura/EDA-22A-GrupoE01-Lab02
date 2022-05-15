@@ -28,4 +28,12 @@ public class Node <T{
 	public void setNextNode(Node<T> nextNode){
 		this.nextNode = nextNode;
 	}
+
+    // Imprimir
+	public String toString(){
+		if(data != null)
+			return data.toString();
+		else
+			return null;
+	}
 }
