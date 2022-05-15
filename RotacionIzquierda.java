@@ -6,9 +6,14 @@ public class RotacionIzquierda{
 		Scanner leer = new Scanner(System.in);
 		System.out.println("Ingrese numero de rotacion: ");
 		int n = leer.nextInt();
-				
+	
+		System.out.println("Array");
+                mostrar();
+                rotacionIzquierda(n);
+        	System.out.println("\nArray rotado a la izquierda"+n+" vez");
+                mostrar();
 	}
-	public static void rotacionIzquierda(int [] a, int n){
+	public static void rotacionIzquierda(int n){
 	 	
  		for(int h = 1; h <= n ; h++){
 			int aux = numeros[0];
