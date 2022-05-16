@@ -141,4 +141,5 @@ Entre los beneficios que nos ofrecen las clases genéricas están en que nos per
     - https://docs.oracle.com/javase/tutorial/java/generics/types.html 
     - https://www.w3schools.com/java/java_arraylist.asp 
     - https://es.acervolima.com/diferencia-entre-list-y-arraylist-en-java/#:~:text=Lista%20vs%20ArrayList%20en%20Java&text=Se%20puede%20crear%20una%20instancia,matriz%20din%C3%A1mica%20que%20contiene%20objetos.
+    -https://www.youtube.com/watch?v=TjlPQPRfWFk&ab_channel=makigas%3Atutorialesdeprogramaci%C3%B3n
 	
