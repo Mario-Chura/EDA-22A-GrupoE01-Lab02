@@ -78,16 +78,23 @@
 - Invertir un matriz de enteros (2 pts)
 
 En este ejercicio consistia invertir el orden de lo valores en un array , para ello se utilizo un array auxiliar donde se iba almacenando estos valores pero con la posicion invertida.
+```sh
+     for (int i = 0; i < iteraciones; i++){
+         int auxiliar = matriz[i];
+         matriz[i] = matriz[longitud - i - 1];
+         matriz[longitud - i -1] = auxiliar;
+     }
+```
 #	
 - Rotación a la Izquierda (3 pts)
 
 En este ejercicio se trabajo con un conjunto de numeros almacenados en un array, para los cuales se tenia que realizar el movimiento uno en uno a la izquierda. Para resolverlo se creo un metodo que recorre una vez las posiciones del array con ello los valores del mismo, en el main y con ayuda del bucle for este metodo es llamado para mostrar la lista del recorrido que hacen los elementos a la izquierda hasta terminar en una posicion inicial. El codigo del metodo implementado para recorrer en una posicion los elementos del array es el siguiente:
 ```sh
-		int aux = numeros[0];
-		for(int i=0 ; i<numeros.length - 1 ; i++ ){
-			numeros[i] = numeros[i+1];
-		}
-		numeros[ numeros.length - 1] = aux;
+	int aux = numeros[0];
+	for(int i=0 ; i<numeros.length - 1 ; i++ ){
+		numeros[i] = numeros[i+1];
+	}
+	numeros[ numeros.length - 1] = aux;
 ```
 #	
 - Triángulo recursivo (4 pts)
@@ -120,6 +127,12 @@ La inteface de lista se usa para crear una lista de objetos asociados a un índi
 Entre los beneficios que nos ofrecen las clases genéricas están en que nos permiten reutilizar el código, así evitamos crear una clase diferente para cada objeto que tenemos que crear.
 #
 ### III.	CONCLUSIONES
+#
+- Las clases genericas nos permiten especificar tipos generales, especificando con un solo método un conjunto de metodos relacionados.
+- Las clases genericas nos ayudan a espeficicar con la declaracion interface un conjunto de tipos relacionados.
+- Las listas enlazadas nos permiten eliminar e insertar nodos en cualquier punto de la lista.
+- Java se encarga de eliminar los nodos que no utilicemos a diferencia de otros lenguajes de programacion.
+- Un método recursivo se llama a si mismo en sus instrucciones, lo cual esta tecnica la podemos usar en vez de una iteración para resolver diferentes problemas.
 #
 <div align="center"><h2>  RETROALIMENTACIÓN GENERAL </h2></div> <br>
 
